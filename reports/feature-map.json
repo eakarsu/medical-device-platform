@@ -1,0 +1,243 @@
+{
+  "mapped": [
+    {
+      "project": "ai-medical-device-postmarket-surveillance",
+      "sourceKey": "reports",
+      "source": "/Volumes/external/projects/ai-medical-device-postmarket-surveillance/frontend/src/App.jsx",
+      "canonical": "reports",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-medical-device-postmarket-surveillance",
+      "sourceKey": "audit",
+      "source": "/Volumes/external/projects/ai-medical-device-postmarket-surveillance/frontend/src/App.jsx",
+      "canonical": "audit",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-medical-device-postmarket-surveillance",
+      "sourceKey": "integrations",
+      "source": "/Volumes/external/projects/ai-medical-device-postmarket-surveillance/frontend/src/App.jsx",
+      "canonical": "connections",
+      "kind": "definition"
+    },
+    {
+      "project": "AIMedicalDeviceComplianceManager",
+      "sourceKey": "/devices",
+      "source": "/Volumes/external/projects/AIMedicalDeviceComplianceManager/client/src/App.jsx",
+      "canonical": "devices",
+      "kind": "definition"
+    },
+    {
+      "project": "AIMedicalDeviceComplianceManager",
+      "sourceKey": "/standards",
+      "source": "/Volumes/external/projects/AIMedicalDeviceComplianceManager/client/src/App.jsx",
+      "canonical": "standards",
+      "kind": "definition"
+    },
+    {
+      "project": "AIMedicalDeviceComplianceManager",
+      "sourceKey": "/checklists",
+      "source": "/Volumes/external/projects/AIMedicalDeviceComplianceManager/client/src/App.jsx",
+      "canonical": "checklists",
+      "kind": "definition"
+    },
+    {
+      "project": "AIMedicalDeviceComplianceManager",
+      "sourceKey": "/audit-logs",
+      "source": "/Volumes/external/projects/AIMedicalDeviceComplianceManager/client/src/App.jsx",
+      "canonical": "audit",
+      "kind": "definition"
+    },
+    {
+      "project": "AIMedicalDeviceComplianceManager",
+      "sourceKey": "/documents",
+      "source": "/Volumes/external/projects/AIMedicalDeviceComplianceManager/client/src/App.jsx",
+      "canonical": "documents",
+      "kind": "definition"
+    },
+    {
+      "project": "AIMedicalDeviceComplianceManager",
+      "sourceKey": "/risk-assessments",
+      "source": "/Volumes/external/projects/AIMedicalDeviceComplianceManager/client/src/App.jsx",
+      "canonical": "risk-assessments",
+      "kind": "definition"
+    },
+    {
+      "project": "AIMedicalDeviceComplianceManager",
+      "sourceKey": "/capa",
+      "source": "/Volumes/external/projects/AIMedicalDeviceComplianceManager/client/src/App.jsx",
+      "canonical": "capa",
+      "kind": "definition"
+    },
+    {
+      "project": "AIMedicalDeviceComplianceManager",
+      "sourceKey": "/training",
+      "source": "/Volumes/external/projects/AIMedicalDeviceComplianceManager/client/src/App.jsx",
+      "canonical": "training",
+      "kind": "definition"
+    },
+    {
+      "project": "AIMedicalDeviceComplianceManager",
+      "sourceKey": "/suppliers",
+      "source": "/Volumes/external/projects/AIMedicalDeviceComplianceManager/client/src/App.jsx",
+      "canonical": "suppliers",
+      "kind": "definition"
+    },
+    {
+      "project": "AIMedicalDeviceComplianceManager",
+      "sourceKey": "/nonconformance",
+      "source": "/Volumes/external/projects/AIMedicalDeviceComplianceManager/client/src/App.jsx",
+      "canonical": "nonconformance",
+      "kind": "definition"
+    },
+    {
+      "project": "AIMedicalDeviceComplianceManager",
+      "sourceKey": "/change-controls",
+      "source": "/Volumes/external/projects/AIMedicalDeviceComplianceManager/client/src/App.jsx",
+      "canonical": "change-controls",
+      "kind": "definition"
+    },
+    {
+      "project": "AIMedicalDeviceComplianceManager",
+      "sourceKey": "/calibration",
+      "source": "/Volumes/external/projects/AIMedicalDeviceComplianceManager/client/src/App.jsx",
+      "canonical": "calibration",
+      "kind": "definition"
+    },
+    {
+      "project": "AIMedicalDeviceComplianceManager",
+      "sourceKey": "/udi-recall-trace",
+      "source": "/Volumes/external/projects/AIMedicalDeviceComplianceManager/client/src/App.jsx",
+      "canonical": "udi-recall-trace",
+      "kind": "definition"
+    },
+    {
+      "project": "AIMedicalDeviceComplianceManager",
+      "sourceKey": "/ai-tools?cat=device",
+      "source": "/Volumes/external/projects/AIMedicalDeviceComplianceManager/client/src/App.jsx",
+      "canonical": "cat-device",
+      "kind": "definition"
+    },
+    {
+      "project": "AIMedicalDeviceComplianceManager",
+      "sourceKey": "/ai-tools?cat=standards",
+      "source": "/Volumes/external/projects/AIMedicalDeviceComplianceManager/client/src/App.jsx",
+      "canonical": "cat-standards",
+      "kind": "definition"
+    },
+    {
+      "project": "AIMedicalDeviceComplianceManager",
+      "sourceKey": "/ai-tools?cat=documents",
+      "source": "/Volumes/external/projects/AIMedicalDeviceComplianceManager/client/src/App.jsx",
+      "canonical": "cat-documents",
+      "kind": "definition"
+    },
+    {
+      "project": "AIMedicalDeviceComplianceManager",
+      "sourceKey": "/ai-tools?cat=risk",
+      "source": "/Volumes/external/projects/AIMedicalDeviceComplianceManager/client/src/App.jsx",
+      "canonical": "cat-risk",
+      "kind": "definition"
+    },
+    {
+      "project": "AIMedicalDeviceComplianceManager",
+      "sourceKey": "/ai-tools?cat=capa",
+      "source": "/Volumes/external/projects/AIMedicalDeviceComplianceManager/client/src/App.jsx",
+      "canonical": "cat-capa",
+      "kind": "definition"
+    },
+    {
+      "project": "AIMedicalDeviceComplianceManager",
+      "sourceKey": "/ai-tools?cat=training",
+      "source": "/Volumes/external/projects/AIMedicalDeviceComplianceManager/client/src/App.jsx",
+      "canonical": "cat-training",
+      "kind": "definition"
+    },
+    {
+      "project": "AIMedicalDeviceComplianceManager",
+      "sourceKey": "/ai-tools?cat=suppliers",
+      "source": "/Volumes/external/projects/AIMedicalDeviceComplianceManager/client/src/App.jsx",
+      "canonical": "cat-suppliers",
+      "kind": "definition"
+    },
+    {
+      "project": "AIMedicalDeviceComplianceManager",
+      "sourceKey": "/ai-tools?cat=ncr",
+      "source": "/Volumes/external/projects/AIMedicalDeviceComplianceManager/client/src/App.jsx",
+      "canonical": "cat-ncr",
+      "kind": "definition"
+    },
+    {
+      "project": "AIMedicalDeviceComplianceManager",
+      "sourceKey": "/ai-tools?cat=change",
+      "source": "/Volumes/external/projects/AIMedicalDeviceComplianceManager/client/src/App.jsx",
+      "canonical": "cat-change",
+      "kind": "definition"
+    },
+    {
+      "project": "AIMedicalDeviceComplianceManager",
+      "sourceKey": "/ai-tools?cat=calibration",
+      "source": "/Volumes/external/projects/AIMedicalDeviceComplianceManager/client/src/App.jsx",
+      "canonical": "cat-calibration",
+      "kind": "definition"
+    },
+    {
+      "project": "AIMedicalDeviceComplianceManager",
+      "sourceKey": "/ai-tools?cat=audit",
+      "source": "/Volumes/external/projects/AIMedicalDeviceComplianceManager/client/src/App.jsx",
+      "canonical": "cat-audit",
+      "kind": "definition"
+    }
+  ],
+  "ignored": [
+    {
+      "project": "AIMedicalDeviceComplianceManager",
+      "key": "/dashboard",
+      "source": "/Volumes/external/projects/AIMedicalDeviceComplianceManager/client/src/App.jsx",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIMedicalDeviceComplianceManager",
+      "key": "/ai-tools",
+      "source": "/Volumes/external/projects/AIMedicalDeviceComplianceManager/client/src/App.jsx",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIMedicalDeviceComplianceManager",
+      "key": "dashboard",
+      "source": "/Volumes/external/projects/AIMedicalDeviceComplianceManager",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIMedicalDeviceComplianceManager",
+      "key": "ai-tools",
+      "source": "/Volumes/external/projects/AIMedicalDeviceComplianceManager",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIMedicalDeviceComplianceManager",
+      "key": "insights/timeline",
+      "source": "/Volumes/external/projects/AIMedicalDeviceComplianceManager",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIMedicalDeviceComplianceManager",
+      "key": "codex/custom-viz",
+      "source": "/Volumes/external/projects/AIMedicalDeviceComplianceManager",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIMedicalDeviceComplianceManager",
+      "key": "codex/operations",
+      "source": "/Volumes/external/projects/AIMedicalDeviceComplianceManager",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIMedicalDeviceComplianceManager",
+      "key": "*",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    }
+  ],
+  "migrationWarnings": []
+}

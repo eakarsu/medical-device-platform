@@ -1,0 +1,144 @@
+[
+  {
+    "id": "ai-documents",
+    "title": "Writing, documents & knowledge",
+    "group": "AI assistants",
+    "path": "/assistants/ai-documents",
+    "featureIds": [
+      "notes",
+      "documents",
+      "templates",
+      "cat-documents"
+    ],
+    "ai": true,
+    "representativeId": "notes",
+    "description": "One assistant for 4 related capabilities. Choose the work you need and combine your questions.",
+    "capabilities": [
+      {
+        "id": "notes",
+        "title": "Notes",
+        "originalPath": "/features/notes"
+      },
+      {
+        "id": "documents",
+        "title": "Documents",
+        "originalPath": "/features/documents"
+      },
+      {
+        "id": "templates",
+        "title": "Templates",
+        "originalPath": "/features/templates"
+      },
+      {
+        "id": "cat-documents",
+        "title": "AI Documents",
+        "originalPath": "/features/cat-documents"
+      }
+    ]
+  },
+  {
+    "id": "ai-quality",
+    "title": "Risk, quality & compliance",
+    "group": "AI assistants",
+    "path": "/assistants/ai-quality",
+    "featureIds": [
+      "risk-assessments",
+      "cat-risk",
+      "cat-change",
+      "cat-audit"
+    ],
+    "ai": true,
+    "representativeId": "risk-assessments",
+    "description": "One assistant for 4 related capabilities. Choose the work you need and combine your questions.",
+    "capabilities": [
+      {
+        "id": "risk-assessments",
+        "title": "Risk Assessments",
+        "originalPath": "/features/risk-assessments"
+      },
+      {
+        "id": "cat-risk",
+        "title": "AI Risk Mgmt",
+        "originalPath": "/features/cat-risk"
+      },
+      {
+        "id": "cat-change",
+        "title": "AI Change Control",
+        "originalPath": "/features/cat-change"
+      },
+      {
+        "id": "cat-audit",
+        "title": "AI Audit",
+        "originalPath": "/features/cat-audit"
+      }
+    ]
+  },
+  {
+    "id": "ai-insights",
+    "title": "Insights & recommendations",
+    "group": "AI assistants",
+    "path": "/assistants/ai-insights",
+    "featureIds": [
+      "cat-device"
+    ],
+    "ai": true,
+    "representativeId": "cat-device",
+    "description": "One assistant for 1 related capabilities. Choose the work you need and combine your questions.",
+    "capabilities": [
+      {
+        "id": "cat-device",
+        "title": "AI Device Analysis",
+        "originalPath": "/features/cat-device"
+      }
+    ]
+  },
+  {
+    "id": "ai-general",
+    "title": "General assistance",
+    "group": "AI assistants",
+    "path": "/assistants/ai-general",
+    "featureIds": [
+      "cat-standards",
+      "cat-capa",
+      "cat-training",
+      "cat-suppliers",
+      "cat-ncr",
+      "cat-calibration"
+    ],
+    "ai": true,
+    "representativeId": "cat-standards",
+    "description": "One assistant for 6 related capabilities. Choose the work you need and combine your questions.",
+    "capabilities": [
+      {
+        "id": "cat-standards",
+        "title": "AI Standards",
+        "originalPath": "/features/cat-standards"
+      },
+      {
+        "id": "cat-capa",
+        "title": "AI CAPA",
+        "originalPath": "/features/cat-capa"
+      },
+      {
+        "id": "cat-training",
+        "title": "AI Training",
+        "originalPath": "/features/cat-training"
+      },
+      {
+        "id": "cat-suppliers",
+        "title": "AI Suppliers",
+        "originalPath": "/features/cat-suppliers"
+      },
+      {
+        "id": "cat-ncr",
+        "title": "AI NCR",
+        "originalPath": "/features/cat-ncr"
+      },
+      {
+        "id": "cat-calibration",
+        "title": "AI Calibration",
+        "originalPath": "/features/cat-calibration"
+      }
+    ]
+  }
+]

@@ -1,0 +1,8 @@
+{
+  "id": "medical-device-platform",
+  "port": 46013,
+  "status": "passed",
+  "startScript": true,
+  "health": true,
+  "verifiedAt": "2026-09-07T14:38:30.798Z"
+}

@@ -1,0 +1,14 @@
+[
+  {
+    "id": "ai-medical-device-postmarket-surveillance",
+    "name": "Medical device postmarket surveillance",
+    "sourceProject": "ai-medical-device-postmarket-surveillance",
+    "services": []
+  },
+  {
+    "id": "AIMedicalDeviceComplianceManager",
+    "name": "Medical device compliance manager",
+    "sourceProject": "AIMedicalDeviceComplianceManager",
+    "services": []
+  }
+]

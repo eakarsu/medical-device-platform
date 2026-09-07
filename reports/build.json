@@ -1,0 +1,9 @@
+{
+  "app": "medical-device-platform",
+  "features": 37,
+  "sourceApps": 2,
+  "calculatorEngines": 0,
+  "registryHash": "af399d0644bac9b98beaba6387fbab6371fd53762e94e3a9b6216d372ec114fe",
+  "builtAt": "2026-09-07T22:05:32.776Z",
+  "status": "built"
+}

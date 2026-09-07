@@ -1,0 +1,1305 @@
+[
+  {
+    "id": "clients",
+    "title": "Clients & customers",
+    "group": "Workspace",
+    "description": "Organize clients & customers and track progress.",
+    "fields": [
+      {
+        "name": "full_name",
+        "label": "Full name",
+        "type": "text"
+      },
+      {
+        "name": "email",
+        "label": "Email",
+        "type": "text"
+      },
+      {
+        "name": "phone",
+        "label": "Phone",
+        "type": "text"
+      },
+      {
+        "name": "organization",
+        "label": "Organization",
+        "type": "text"
+      },
+      {
+        "name": "address",
+        "label": "Address",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/clients",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "matters",
+    "title": "Work items & projects",
+    "group": "Workspace",
+    "description": "Organize work items & projects and track progress.",
+    "fields": [
+      {
+        "name": "reference",
+        "label": "Reference",
+        "type": "text"
+      },
+      {
+        "name": "jurisdiction",
+        "label": "Jurisdiction",
+        "type": "text"
+      },
+      {
+        "name": "due_date",
+        "label": "Due date",
+        "type": "date"
+      },
+      {
+        "name": "owner",
+        "label": "Owner",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/matters",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "contacts",
+    "title": "Contacts & parties",
+    "group": "Workspace",
+    "description": "Organize contacts & parties and track progress.",
+    "fields": [
+      {
+        "name": "full_name",
+        "label": "Full name",
+        "type": "text"
+      },
+      {
+        "name": "email",
+        "label": "Email",
+        "type": "text"
+      },
+      {
+        "name": "phone",
+        "label": "Phone",
+        "type": "text"
+      },
+      {
+        "name": "organization",
+        "label": "Organization",
+        "type": "text"
+      },
+      {
+        "name": "relationship",
+        "label": "Relationship",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/contacts",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "tasks",
+    "title": "Tasks",
+    "group": "Workspace",
+    "description": "Organize tasks and track progress.",
+    "fields": [
+      {
+        "name": "assignee",
+        "label": "Assignee",
+        "type": "text"
+      },
+      {
+        "name": "due_date",
+        "label": "Due date",
+        "type": "date"
+      },
+      {
+        "name": "priority",
+        "label": "Priority",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/tasks",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "calendar",
+    "title": "Calendar",
+    "group": "Workspace",
+    "description": "Organize calendar and track progress.",
+    "fields": [
+      {
+        "name": "event_date",
+        "label": "Event date",
+        "type": "date"
+      },
+      {
+        "name": "location",
+        "label": "Location",
+        "type": "text"
+      },
+      {
+        "name": "attendees",
+        "label": "Attendees",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/calendar",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "deadlines",
+    "title": "Deadlines & reminders",
+    "group": "Workspace",
+    "description": "Organize deadlines & reminders and track progress.",
+    "fields": [
+      {
+        "name": "due_date",
+        "label": "Due date",
+        "type": "date"
+      },
+      {
+        "name": "owner",
+        "label": "Owner",
+        "type": "text"
+      },
+      {
+        "name": "requirements",
+        "label": "Requirements",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/deadlines",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "notes",
+    "title": "Notes",
+    "group": "Workspace",
+    "description": "Organize notes and track progress.",
+    "fields": [
+      {
+        "name": "content",
+        "label": "Content",
+        "type": "textarea"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/notes",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "documents",
+    "title": "Documents",
+    "group": "Workspace",
+    "description": "Organize documents and track progress.",
+    "fields": [
+      {
+        "name": "document_type",
+        "label": "Document type",
+        "type": "text"
+      },
+      {
+        "name": "content",
+        "label": "Content",
+        "type": "textarea"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIMedicalDeviceComplianceManager",
+        "path": "/documents",
+        "source": "/Volumes/external/projects/AIMedicalDeviceComplianceManager/client/src/App.jsx",
+        "kind": "definition",
+        "label": "Documents"
+      }
+    ],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/documents",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "templates",
+    "title": "Templates",
+    "group": "Workspace",
+    "description": "Organize templates and track progress.",
+    "fields": [
+      {
+        "name": "document_type",
+        "label": "Document type",
+        "type": "text"
+      },
+      {
+        "name": "content",
+        "label": "Content",
+        "type": "textarea"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/templates",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "billing",
+    "title": "Invoices & billing",
+    "group": "Workspace",
+    "description": "Organize invoices & billing and track progress.",
+    "fields": [
+      {
+        "name": "invoice_number",
+        "label": "Invoice number",
+        "type": "text"
+      },
+      {
+        "name": "amount",
+        "label": "Amount",
+        "type": "number"
+      },
+      {
+        "name": "due_date",
+        "label": "Due date",
+        "type": "date"
+      },
+      {
+        "name": "payment_status",
+        "label": "Payment status",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/billing",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "time",
+    "title": "Time tracking",
+    "group": "Workspace",
+    "description": "Organize time tracking and track progress.",
+    "fields": [
+      {
+        "name": "work_date",
+        "label": "Work date",
+        "type": "date"
+      },
+      {
+        "name": "hours",
+        "label": "Hours",
+        "type": "number"
+      },
+      {
+        "name": "rate",
+        "label": "Rate",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/time",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "messages",
+    "title": "Messages & communications",
+    "group": "Workspace",
+    "description": "Organize messages & communications and track progress.",
+    "fields": [
+      {
+        "name": "recipient",
+        "label": "Recipient",
+        "type": "text"
+      },
+      {
+        "name": "subject",
+        "label": "Subject",
+        "type": "text"
+      },
+      {
+        "name": "content",
+        "label": "Content",
+        "type": "textarea"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/messages",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "reports",
+    "title": "Reports & analytics",
+    "group": "Workspace",
+    "description": "Organize reports & analytics and track progress.",
+    "fields": [],
+    "ai": false,
+    "mode": "report",
+    "sources": [
+      {
+        "module": "ai-medical-device-postmarket-surveillance",
+        "path": "reports",
+        "source": "/Volumes/external/projects/ai-medical-device-postmarket-surveillance/frontend/src/App.jsx",
+        "kind": "definition",
+        "label": "Domain Analytics"
+      }
+    ],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/reports",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "audit",
+    "title": "Activity & audit trail",
+    "group": "Workspace",
+    "description": "Organize activity & audit trail and track progress.",
+    "fields": [],
+    "ai": false,
+    "mode": "audit",
+    "sources": [
+      {
+        "module": "ai-medical-device-postmarket-surveillance",
+        "path": "audit",
+        "source": "/Volumes/external/projects/ai-medical-device-postmarket-surveillance/frontend/src/App.jsx",
+        "kind": "definition",
+        "label": "Decision Audit Trail"
+      },
+      {
+        "module": "AIMedicalDeviceComplianceManager",
+        "path": "/audit-logs",
+        "source": "/Volumes/external/projects/AIMedicalDeviceComplianceManager/client/src/App.jsx",
+        "kind": "definition",
+        "label": "Audit Logs"
+      }
+    ],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/audit",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "connections",
+    "title": "Provider connections",
+    "group": "Workspace",
+    "description": "Prepare provider connections requests and track review. Provider execution is not connected.",
+    "fields": [
+      {
+        "name": "provider_name",
+        "label": "Provider name",
+        "type": "text"
+      },
+      {
+        "name": "endpoint_url",
+        "label": "Endpoint url",
+        "type": "text"
+      },
+      {
+        "name": "purpose",
+        "label": "Purpose",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "integration",
+    "sources": [
+      {
+        "module": "ai-medical-device-postmarket-surveillance",
+        "path": "integrations",
+        "source": "/Volumes/external/projects/ai-medical-device-postmarket-surveillance/frontend/src/App.jsx",
+        "kind": "definition",
+        "label": "Source Systems"
+      }
+    ],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/connections",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "devices",
+    "title": "Devices",
+    "group": "Medical device compliance manager",
+    "description": "Organize devices and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIMedicalDeviceComplianceManager",
+        "path": "/devices",
+        "source": "/Volumes/external/projects/AIMedicalDeviceComplianceManager/client/src/App.jsx",
+        "kind": "definition",
+        "label": "Devices"
+      }
+    ],
+    "owner": "AIMedicalDeviceComplianceManager",
+    "alternatives": [],
+    "path": "/features/devices",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "standards",
+    "title": "Standards",
+    "group": "Medical device compliance manager",
+    "description": "Organize standards and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIMedicalDeviceComplianceManager",
+        "path": "/standards",
+        "source": "/Volumes/external/projects/AIMedicalDeviceComplianceManager/client/src/App.jsx",
+        "kind": "definition",
+        "label": "Standards"
+      }
+    ],
+    "owner": "AIMedicalDeviceComplianceManager",
+    "alternatives": [],
+    "path": "/features/standards",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "checklists",
+    "title": "Checklists",
+    "group": "Medical device compliance manager",
+    "description": "Organize checklists and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIMedicalDeviceComplianceManager",
+        "path": "/checklists",
+        "source": "/Volumes/external/projects/AIMedicalDeviceComplianceManager/client/src/App.jsx",
+        "kind": "definition",
+        "label": "Checklists"
+      }
+    ],
+    "owner": "AIMedicalDeviceComplianceManager",
+    "alternatives": [],
+    "path": "/features/checklists",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "risk-assessments",
+    "title": "Risk Assessments",
+    "group": "Medical device compliance manager",
+    "description": "Organize risk assessments and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIMedicalDeviceComplianceManager",
+        "path": "/risk-assessments",
+        "source": "/Volumes/external/projects/AIMedicalDeviceComplianceManager/client/src/App.jsx",
+        "kind": "definition",
+        "label": "Risk Assessments"
+      }
+    ],
+    "owner": "AIMedicalDeviceComplianceManager",
+    "alternatives": [],
+    "path": "/features/risk-assessments",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "capa",
+    "title": "CAPA",
+    "group": "Medical device compliance manager",
+    "description": "Organize capa and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIMedicalDeviceComplianceManager",
+        "path": "/capa",
+        "source": "/Volumes/external/projects/AIMedicalDeviceComplianceManager/client/src/App.jsx",
+        "kind": "definition",
+        "label": "CAPA"
+      }
+    ],
+    "owner": "AIMedicalDeviceComplianceManager",
+    "alternatives": [],
+    "path": "/features/capa",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "training",
+    "title": "Training",
+    "group": "Medical device compliance manager",
+    "description": "Organize training and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIMedicalDeviceComplianceManager",
+        "path": "/training",
+        "source": "/Volumes/external/projects/AIMedicalDeviceComplianceManager/client/src/App.jsx",
+        "kind": "definition",
+        "label": "Training"
+      }
+    ],
+    "owner": "AIMedicalDeviceComplianceManager",
+    "alternatives": [],
+    "path": "/features/training",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "suppliers",
+    "title": "Suppliers",
+    "group": "Medical device compliance manager",
+    "description": "Organize suppliers and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIMedicalDeviceComplianceManager",
+        "path": "/suppliers",
+        "source": "/Volumes/external/projects/AIMedicalDeviceComplianceManager/client/src/App.jsx",
+        "kind": "definition",
+        "label": "Suppliers"
+      }
+    ],
+    "owner": "AIMedicalDeviceComplianceManager",
+    "alternatives": [],
+    "path": "/features/suppliers",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "nonconformance",
+    "title": "Non-Conformance",
+    "group": "Medical device compliance manager",
+    "description": "Organize non-conformance and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIMedicalDeviceComplianceManager",
+        "path": "/nonconformance",
+        "source": "/Volumes/external/projects/AIMedicalDeviceComplianceManager/client/src/App.jsx",
+        "kind": "definition",
+        "label": "Non-Conformance"
+      }
+    ],
+    "owner": "AIMedicalDeviceComplianceManager",
+    "alternatives": [],
+    "path": "/features/nonconformance",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "change-controls",
+    "title": "Change Controls",
+    "group": "Medical device compliance manager",
+    "description": "Organize change controls and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIMedicalDeviceComplianceManager",
+        "path": "/change-controls",
+        "source": "/Volumes/external/projects/AIMedicalDeviceComplianceManager/client/src/App.jsx",
+        "kind": "definition",
+        "label": "Change Controls"
+      }
+    ],
+    "owner": "AIMedicalDeviceComplianceManager",
+    "alternatives": [],
+    "path": "/features/change-controls",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "calibration",
+    "title": "Calibration",
+    "group": "Medical device compliance manager",
+    "description": "Organize calibration and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIMedicalDeviceComplianceManager",
+        "path": "/calibration",
+        "source": "/Volumes/external/projects/AIMedicalDeviceComplianceManager/client/src/App.jsx",
+        "kind": "definition",
+        "label": "Calibration"
+      }
+    ],
+    "owner": "AIMedicalDeviceComplianceManager",
+    "alternatives": [],
+    "path": "/features/calibration",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "udi-recall-trace",
+    "title": "UDI Recall Trace",
+    "group": "Medical device compliance manager",
+    "description": "Organize udi recall trace and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIMedicalDeviceComplianceManager",
+        "path": "/udi-recall-trace",
+        "source": "/Volumes/external/projects/AIMedicalDeviceComplianceManager/client/src/App.jsx",
+        "kind": "definition",
+        "label": "UDI Recall Trace"
+      }
+    ],
+    "owner": "AIMedicalDeviceComplianceManager",
+    "alternatives": [],
+    "path": "/features/udi-recall-trace",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "cat-device",
+    "title": "AI Device Analysis",
+    "group": "Medical device compliance manager",
+    "description": "Organize ai device analysis and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIMedicalDeviceComplianceManager",
+        "path": "/ai-tools?cat=device",
+        "source": "/Volumes/external/projects/AIMedicalDeviceComplianceManager/client/src/App.jsx",
+        "kind": "definition",
+        "label": "AI Device Analysis"
+      }
+    ],
+    "owner": "AIMedicalDeviceComplianceManager",
+    "alternatives": [],
+    "path": "/features/cat-device",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "cat-standards",
+    "title": "AI Standards",
+    "group": "Medical device compliance manager",
+    "description": "Organize ai standards and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIMedicalDeviceComplianceManager",
+        "path": "/ai-tools?cat=standards",
+        "source": "/Volumes/external/projects/AIMedicalDeviceComplianceManager/client/src/App.jsx",
+        "kind": "definition",
+        "label": "AI Standards"
+      }
+    ],
+    "owner": "AIMedicalDeviceComplianceManager",
+    "alternatives": [],
+    "path": "/features/cat-standards",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "cat-documents",
+    "title": "AI Documents",
+    "group": "Medical device compliance manager",
+    "description": "Organize ai documents and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIMedicalDeviceComplianceManager",
+        "path": "/ai-tools?cat=documents",
+        "source": "/Volumes/external/projects/AIMedicalDeviceComplianceManager/client/src/App.jsx",
+        "kind": "definition",
+        "label": "AI Documents"
+      }
+    ],
+    "owner": "AIMedicalDeviceComplianceManager",
+    "alternatives": [],
+    "path": "/features/cat-documents",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "cat-risk",
+    "title": "AI Risk Mgmt",
+    "group": "Medical device compliance manager",
+    "description": "Organize ai risk mgmt and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIMedicalDeviceComplianceManager",
+        "path": "/ai-tools?cat=risk",
+        "source": "/Volumes/external/projects/AIMedicalDeviceComplianceManager/client/src/App.jsx",
+        "kind": "definition",
+        "label": "AI Risk Mgmt"
+      }
+    ],
+    "owner": "AIMedicalDeviceComplianceManager",
+    "alternatives": [],
+    "path": "/features/cat-risk",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "cat-capa",
+    "title": "AI CAPA",
+    "group": "Medical device compliance manager",
+    "description": "Organize ai capa and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIMedicalDeviceComplianceManager",
+        "path": "/ai-tools?cat=capa",
+        "source": "/Volumes/external/projects/AIMedicalDeviceComplianceManager/client/src/App.jsx",
+        "kind": "definition",
+        "label": "AI CAPA"
+      }
+    ],
+    "owner": "AIMedicalDeviceComplianceManager",
+    "alternatives": [],
+    "path": "/features/cat-capa",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "cat-training",
+    "title": "AI Training",
+    "group": "Medical device compliance manager",
+    "description": "Organize ai training and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIMedicalDeviceComplianceManager",
+        "path": "/ai-tools?cat=training",
+        "source": "/Volumes/external/projects/AIMedicalDeviceComplianceManager/client/src/App.jsx",
+        "kind": "definition",
+        "label": "AI Training"
+      }
+    ],
+    "owner": "AIMedicalDeviceComplianceManager",
+    "alternatives": [],
+    "path": "/features/cat-training",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "cat-suppliers",
+    "title": "AI Suppliers",
+    "group": "Medical device compliance manager",
+    "description": "Organize ai suppliers and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIMedicalDeviceComplianceManager",
+        "path": "/ai-tools?cat=suppliers",
+        "source": "/Volumes/external/projects/AIMedicalDeviceComplianceManager/client/src/App.jsx",
+        "kind": "definition",
+        "label": "AI Suppliers"
+      }
+    ],
+    "owner": "AIMedicalDeviceComplianceManager",
+    "alternatives": [],
+    "path": "/features/cat-suppliers",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "cat-ncr",
+    "title": "AI NCR",
+    "group": "Medical device compliance manager",
+    "description": "Organize ai ncr and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIMedicalDeviceComplianceManager",
+        "path": "/ai-tools?cat=ncr",
+        "source": "/Volumes/external/projects/AIMedicalDeviceComplianceManager/client/src/App.jsx",
+        "kind": "definition",
+        "label": "AI NCR"
+      }
+    ],
+    "owner": "AIMedicalDeviceComplianceManager",
+    "alternatives": [],
+    "path": "/features/cat-ncr",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "cat-change",
+    "title": "AI Change Control",
+    "group": "Medical device compliance manager",
+    "description": "Organize ai change control and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIMedicalDeviceComplianceManager",
+        "path": "/ai-tools?cat=change",
+        "source": "/Volumes/external/projects/AIMedicalDeviceComplianceManager/client/src/App.jsx",
+        "kind": "definition",
+        "label": "AI Change Control"
+      }
+    ],
+    "owner": "AIMedicalDeviceComplianceManager",
+    "alternatives": [],
+    "path": "/features/cat-change",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "cat-calibration",
+    "title": "AI Calibration",
+    "group": "Medical device compliance manager",
+    "description": "Organize ai calibration and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIMedicalDeviceComplianceManager",
+        "path": "/ai-tools?cat=calibration",
+        "source": "/Volumes/external/projects/AIMedicalDeviceComplianceManager/client/src/App.jsx",
+        "kind": "definition",
+        "label": "AI Calibration"
+      }
+    ],
+    "owner": "AIMedicalDeviceComplianceManager",
+    "alternatives": [],
+    "path": "/features/cat-calibration",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "cat-audit",
+    "title": "AI Audit",
+    "group": "Medical device compliance manager",
+    "description": "Organize ai audit and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIMedicalDeviceComplianceManager",
+        "path": "/ai-tools?cat=audit",
+        "source": "/Volumes/external/projects/AIMedicalDeviceComplianceManager/client/src/App.jsx",
+        "kind": "definition",
+        "label": "AI Audit"
+      }
+    ],
+    "owner": "AIMedicalDeviceComplianceManager",
+    "alternatives": [],
+    "path": "/features/cat-audit",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  }
+]
