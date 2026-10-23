@@ -1,0 +1,22 @@
+{
+  "insights": [
+    {
+      "id": "insight-capa",
+      "feature": "capa",
+      "title": "CAPA insight",
+      "focus": "Summarize CAPA records: totals, status mix, field coverage and recent activity. Device quality and compliance only; no diagnosis or clinical claims; use only supplied records."
+    },
+    {
+      "id": "insight-risk-assessments",
+      "feature": "risk-assessments",
+      "title": "Risk assessment insight",
+      "focus": "Summarize Risk Assessments records: totals, status mix, field coverage and recent activity. Device quality and compliance only; no diagnosis or clinical claims; use only supplied records."
+    },
+    {
+      "id": "priority-actions",
+      "feature": "tasks",
+      "title": "Priority actions",
+      "focus": "Overdue and upcoming tasks and deadlines, including unassigned work."
+    }
+  ]
+}
